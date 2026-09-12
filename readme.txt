@@ -115,7 +115,7 @@ Project notes
 -------------
 
 I will release work-in-progress for anyone interested in following along. Anyone that
-wishes to help is encourage to contact me.
+wishes to help is encouraged to contact me.
 
 Steve
 
