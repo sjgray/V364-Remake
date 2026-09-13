@@ -1,0 +1,87 @@
+Mailing list post regarding V364 / MOS 8706Mailing list post regarding V364 / 
+MOS 8706
+From: Richard Atkinson
+Date: 2001-03-22 11:17:38 
+
+It's been a while since I posted to either list, but I have some news
+which may be of interest to many of you. For the past month and a half I
+have been in Austin, Texas working for a tech company and I took the
+opportunity to visit Bo Zimmerman.
+
+Bo and I worked on his V364 among other things and we took some recordings
+of the speech chip words. The results are at www.zimmers.net on his V364
+page. Whereas the Magic Voice has 235 words, the V364 has 261 words and a
+modified version of Daniel Spiteri's Magic Voice word list is available on
+Bo's site. The V364 has the same words as the Magic Voice (with the
+exception of 3 less duplications) and some extra words at the end, mainly
+BASIC 3.5 function names. Some of them were nearly unintelligible, so we
+were fortunate that the BASIC 'SAY "WORD"' construct also works. In this
+way we were able to determine all of the uncertain words. Listen to 'go'
+and 'hide', for example. Finally, 'grey' is replaced by 'pink' as the word
+grey is not used in the 264 series colour palette (being a shade of white)
+whereas pink is.
+
+The ROM has been on Funet for some time, thanks to Bo's efforts when he
+first obtained the machine. It ought to be possible to get the Magic Voice
+to say the extra words, using excerpts from the V364 speech ROM. The V364
+speech hardware uses the same Toshiba PARCOR speech synth chip (T6721A,
+datasheet on Funet) but a more integrated arrangement of glue
+hardware. The speech ROM is in a socket to the left of the BASIC ROM and
+it occupies slot 3 LOW in the ROM banking scheme. The empty socket to the
+left of that is for slot 3 HIGH. There is a single custom ASIC for the
+glue logic to the left of that, so the complete listing of V364 28 pin
+chips from left to right in the line goes 8706R0 (custom ASIC), empty
+(slot 3 HIGH), speech ROM (slot 3 LOW), BASIC ROM (slot 0 LOW), KERNAL ROM
+(slot 0 HIGH), 3 PLUS 1 ROM (slot 1 LOW), 3 PLUS 1 ROM (slot 1 HIGH), PLA.
+
+This ASIC replaces the 6525 TIA, 40105 fifo and gate array inside the
+Magic Voice. It has four registers and banks in at $FD2x, which is the
+unused PLA decoded address range (function 0) on all other 264 series
+machines. There are probably four mirrors of the ASIC registers; we did
+not check for this functionality at the time. I took the opportunity to
+obtain this ASIC's pinout, as a first step towards reverse-engineering the
+hardware and maybe one day making a speech attachment for a plus/4 out of
+a modified Magic Voice. Here are the results of the investigation:
+
+U27 8706R0 (1284) Custom speech glue logic ASIC
+
+      1 RESET# (cpu) 28 +5V
+      2 IRQ# (cpu) 27 D0 (cpu)
+      3 R/W# (cpu) 26 D0 (t6721a)
+      4 phi 0 (cpu) 25 D1 (cpu)
+      5 $FD2x# (cpu) 24 D1 (t6721a)
+      6 A0 (cpu) 23 D2 (cpu)
+      7 A1 (cpu) 22 D2 (t6721a)
+      8 ? ? 21 D3 (cpu)
+      9 EOS# (t6721a) 20 D3 (t6721a)
+      10 APD (t6721a) 19 D4 (cpu)
+      11 phi 2 (t6721a) 18 D5 (cpu)
+      12 DI (t6721a) 17 D6 (cpu)
+      13 DTRD (t6721a) 16 D7 (cpu)
+      14 GND 15 WR# (t6721)
+
+There was one pin which did not seem to be connected to anything else on
+the V364 motherboard; pin 8. Whether this pin is NC internally or an
+unused function I am not sure; multimeter testing of this pin on the
+working V364 showed it constantly at 0V, but I cannot say for sure there
+was no signal on it. In any case, any function it might have would be of
+academic interest. The next phase of V364 hardware investigation will
+involve oscilloscope and (hopefully) logic analyser testing, but this
+could be a long time in the future.
+
+The next part of the overall project will start to determine what function
+the bits of the 4 registers have; and hopefully come up with a way to
+attach a Magic Voice (or parts of a Magic Voice) to another 264 series
+machine in a V364 software-compatible way. This may be of interest to
+emulator authors. Has anyone tried the V364 ROM in an emulator recently?
+
+Richard
+
+
+
+  2001 R.G. Atkinson.
+
+
+
+The author has asserted the right to be identified as the author of the original 
+works. 

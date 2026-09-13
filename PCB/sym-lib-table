@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Commodore Plus 4-cache") (type "Legacy") (uri "Z:/Personal/Steve/MyProjects/_KiCadProjects/_OtherPeoples/_CBM/_TED/Plus4/Plus4 Original/Commodore Plus 4-cache.lib") (options "") (descr "Legacy project cache library"))
+	(lib (name "V364-cache") (type "Legacy") (uri "Z:/Personal/Steve/MyProjects/_KiCadProjects/V364-remake/V364-cache.lib") (options "") (descr "Legacy project cache library"))
+	(lib (name "V364") (type "KiCad") (uri "//NAS/data/Commodore/__Computers/C264 Family/_Prototypes/C364 Prototype/Pictures/Motherboard/V364.kicad_sym") (options "") (descr ""))
+)
