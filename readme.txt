@@ -26,9 +26,13 @@ This project will involve several different tasks:
 Status Overview  **** This project is not complete!!!! ***
 ---------------
 
-* V364 MX Keyboard has been completed and tested working. May need updating.
-* V364 3D case is in development. Almost complete.
-* V364 replica PCB is in development. Layout almost complete. No routing.
+The following have been posted even if not complete:
+
+* Complete "full" MX Keyboard. Tested working. May need updating.
+* Complete Custom Cherry MX keycaps. Tested ok.
+* Untested MX Numeric Pad. Created from "full" keyboard.
+* Preliminary 3D case for Plus/4 motherboard. Has not been printed.
+* Preliminary Motherboard PCB. Most components are in place. No routing.
 
 
 Keyboard
@@ -43,9 +47,15 @@ use a Plus/4 keyboard (feasibility to be determined).
 Stand-alone Numeric Keypad
 ---------------------------
 
-This has not been started, but will be just the numeric pad section of the full design.
-The method of connecting a normal Plus/4 keyboard and addon numeric section needs to
-be determined. Keycaps for the numeric pad are complete.
+This has not been tested! Use at own risk.
+The original "full" V364 keyboard was loaded and everything but the
+numeric pad and one connecter were retained so there should be no
+reason the numpad would not work, however it may require modifications
+depending on the final case design.
+
+The V364 motherboard should have an extra keyboard connector to connect
+both a Plus/4 keyboard and this numeric pad. For Plus/4 motherboards it
+will need a 2-to-1 adapter board to connect both.
 
 
 Keycaps
