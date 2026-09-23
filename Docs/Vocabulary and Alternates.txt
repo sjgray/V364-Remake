@@ -1,0 +1,285 @@
+The V364 word list - Courtesy Bo Zimmerman and Richard Atkinson.
+================== - Updated by Steve Gray 2026-09-16
+
+There are 261 words, though quite a few are homonyms (three fewer than the magic voice: bye/buy,
+here/hear, and oh/o).  The word "grey" was replaced by "pink".
+
+You can do:
+
+	SAY number           - From 0 to 260, ie: SAY 84  will say "COMMODORE"
+	SAY "word"           - Unknown words will cause an error.
+	SAY "word word ..."  - Separate every "word" with a space. Do not use punctuation!
+
+The following "partial" words can not be used inside quotes. These include:
+
+	thir, fif, teen, ty, est, ing, ssss, th   (ssss being used to make plural)
+
+This differs from the Magic Voice behavior. These should be used with their word NUMBER, ie: SAY 69
+
+Additional forms of some words will be listed with a hyphen but should be written with a SPACE in between
+or using their word NUMBER. Sound-alike words will be enclosed in quotes.
+
+
+NUMBER WORD     	SAY?	NOTES/EXAMPLES
+====== ====		====	==============
+ 0     zero		YES
+ 1     one		YES	"won"
+ 2     two		YES	"to","too"
+ 3     three		YES
+ 4     four		YES	"fore"
+ 5     five		YES	
+ 6     six		YES	
+ 7     seven		YES	
+ 8     eight		YES	"ate"
+ 9     nine		YES	
+ 10    ten		YES	
+ 11    eleven		YES	
+ 12    twelve		YES	
+ 13    thir		NO	thir-t, thir-teen
+ 14    fif		NO	fif-t, fif-teen
+ 15    twenty		YES
+ 16    hundred		YES
+ 17    thousand		YES
+ 18    million		YES
+ 19    teen		NO	ie: thir-teen, four-teen, fif-teen ...etc
+ 20    ty		NO	Use "t" instead. four-t, six-t, seven-t ...etc
+ 21    a		YES
+ 22    b		YES	"bee"
+ 23    c		YES	"see"
+ 24    d		YES
+ 25    e		YES
+ 26    f		YES
+ 27    g		YES
+ 28    h		YES
+ 29    i		YES	"eye"
+ 30    j		YES
+ 31    k		YES
+ 32    l		YES
+ 33    m		YES
+ 34    n		YES
+ 35    o		YES	"oh"
+ 36    p		YES
+ 37    q		YES
+ 38    r		YES	"are"
+ 39    s		YES
+ 40    t		YES	Substitute for "TY" "tea"
+ 41    u		YES	"you"
+ 42    v		YES
+ 43    w		YES
+ 44    x		YES
+ 45    y		YES	"why"
+ 46    z		YES
+ 47    (silence)	YES
+ 48    add		YES	add-ssss, add-ing
+ 49    subtract		YES	subtract-ssss, subtract-ing
+ 50    divide		YES	divide-ssss, divide-er, divide-ing
+ 51    divided		YES
+ 52    equals		YES
+ 53    less		YES	less-er
+ 54    minus		YES
+ 55    more		YES
+ 56    number		YES	number-sss, number-ing
+ 57    plus		YES
+ 58    remainder	YES
+ 59    it		YES it-ssss
+ 60    at		YES
+ 61    when		YES
+ 62    has		YES
+ 63    times		YES
+ 64    apostrophe	YES
+ 65    word		YES	word-ssss, word-ing
+ 66    er		YES	eg: help-er
+ 67    est		NO
+ 68    ing		NO	eg: answer-ing, "question-ing", "point-ing" etc
+ 69    ssss		NO
+ 70    th		NO	50th = "fif-th"
+ 71    all		YES
+ 72    me		YES
+ 73    my		YES
+ 74    that		YES	that-ssss
+ 75    their		YES
+ 76    they're		YES	Does this sound different than #75?
+ 77    this		YES
+ 78    what		YES	what-ssss
+ 79    which		YES
+ 80    who		YES	who-ssss
+ 81    your		YES	your-ssss
+ 82    you're		YES	Sounds like "your"
+ 83    answer		YES	answer-ssss
+ 84    commodore	YES
+ 85    end		YES	end-ing
+ 86    point		YES	point-ssss, point-er, point-ing
+ 87    thing		YES	thing-ssss
+ 88    question 	YES	question-ssss, question-er, question-ing
+ 89    turn		YES	turn-ssss, turn-ing
+ 90    am		YES
+ 91    are		YES
+ 92    be		YES	"bee", be-sss, be-ing
+ 93    can		YES	can-ssss, can-er, can-ing
+ 94    correct		YES	correct-ssss, correct-ing
+ 95    did		YES
+ 96    do		YES
+ 97    does		YES
+ 98    done		YES
+ 99    find		YES	find-ssss, find-ing, find-er
+ 100   get		YES	get-ssss, get-ing
+ 101   have		YES	have-ing
+ 102   help		YES	help-ssss, help-ing, help-er
+ 103   is		YES
+ 104   know		YES	know-ssss, know-ing
+ 105   like		YES	like-ssss, like-ing 
+ 106   presents		YES
+ 107   read		YES 	Sounds like REED. for past-tense use "RED" read-ssss, read-er, read-ing
+ 108   say		YES
+ 109   see		YES	see-sss, see-ing, see-er
+ 110   start		YES	start-ssss, star-ing, start-er
+ 111   step		YES	step-ssss, step-ing
+ 112   use		YES	use-ssss, user-ing, user-er
+ 113   wait		YES	wait-ssss, wait-ing, wait-er
+ 114   want		YES	want-ssss, want-ing
+ 115   was		YES
+ 116   won		YES	"one"
+ 117   write		YES	"right", write-ing
+ 118   here		YES	"hear", "here-sss", here-ing
+ 119   high		YES	high-er, hiring=high-er-ing
+ 120   how		YES
+ 121   there		YES
+ 122   too		YES	"two", "to"
+ 123   where		YES	"wear", where-ssss, "wearing"=where-ing
+ 124   why		YES	"wise"=why-ssss
+ 125   uh		YES
+ 126   an		YES
+ 127   and		YES
+ 128   as		YES
+ 129   but		YES	"butter"=but-er
+ 130   by		YES	"buy", "bye"
+ 131   for		YES
+ 132   from		YES
+ 133   if		YES
+ 134   in		YES	"inner"=in-er, in-ing
+ 135   large		YES	large-er
+ 136   next		YES
+ 137   not		YES	"knot", not-s
+ 138   of		YES
+ 139   off		YES	"offer"=off-er
+ 140   on		YES	"honor"=on-er
+ 141   or		YES
+ 142   ready		YES
+ 143   same		YES
+ 144   than		YES
+ 145   the		YES	pronounced "thee"
+ 146   thuh		YES	pronounced "thuh"
+ 147   then		YES
+ 148   to		YES	"too","two"
+ 149   until		YES
+ 150   with		YES
+ 151   very		YES
+ 152   bye		YES	"buy", "by", by-sss
+ 153   hi		YES	"high"
+ 154   please		YES	please-ssss, please-er, please-ing
+ 155   thank		YES	thank-ssss
+ 156   yes		YES
+ 157   bad		YES
+ 158   good		YES	good-ssss
+ 159   sorry		YES
+ 160   wrong		YES
+ 161   after		YES
+ 162   most		YES
+ 163   because		YES
+ 164   no		YES	"know", "nose"=no-ssss, "knowing"=no-ing
+ 165   out		YES	out-ing
+ 166   send		YES	send-ssss, send-ing, send-er, send-er-ssss
+ 167   talk		YES	talk-ssss, talk-ing, talk-er
+ 168   any		YES
+ 169   each		YES
+ 170   enter		YES
+ 171   error		YES	error-ssss
+ 172   many		YES
+ 173   every		YES
+ 174   again		YES
+ 175   now		YES
+ 176   small		YES
+ 177   terrific		YES
+ 178   try		YES	try-ssss
+ 179   letter		YES	letter-ssss
+ 180   first		YES
+ 181   second		YES
+ 182   third		YES
+ 183   color		YES	color-ssss, color-ing
+ 184   pink		YES	
+ 185   black		YES	
+ 186   white		YES	
+ 187   red		YES	past-tense of "read"
+ 188   cyan		YES
+ 189   purple		YES	or is it Gurple?
+ 190   green		YES
+ 191   blue		YES	"blew"
+ 192   yellow		YES
+ 193   orange		YES
+ 194   brown		YES
+ 195   light		YES	light-ssss, light-er
+ 196   he		YES
+ 197   our		YES	hour
+ 198   she		YES	she-ssss
+ 199   we		YES
+ 200   you		YES
+ 201   come		YES	come-ssss
+ 202   give		YES	give-ssss, give-ing
+ 203   put		YES	put-ssss, put-ing
+ 204   set		YES	set-ssss, set-ing
+ 205   take		YES	take-ssss, take-ing
+ 206   were		YES
+ 207   may		YES
+ 208   over		YES
+ 209   dark		YES	dark-er
+ 210   command		YES	command-ssss, command-ing, command-er
+ 211   computer		YES	computer-ssss
+ 212   control		YES	control-ssss, control-er, control-ing
+ 213   cursor		YES	cursor-ssss, cursor-ing
+ 214   disk		YES	disk-ssss
+ 215   down		YES	
+ 216   game		YES	game-ssss, game-er, game-ing
+ 217   key		YES	key-ssss
+ 218   left		YES
+ 219   load		YES	load-ssss, load-ing
+ 220   name		YES	name-ssss, name-ing
+ 221   pen		YES	pen-ssss
+ 222   play		YES	play-ssss, play-er, play-ing
+ 223   press		YES	press-ing
+ 224   program		YES	program-ssss, program-er, program-ing
+ 225   right		YES	write, write-er
+ 226   run		YES	run-ssss, run-ing, run-er
+ 227   save		YES	save-ssss, save-ing
+ 228   side		YES	side-ssss
+ 229   stop		YES	stop-ssss, stop-ing
+ 230   symbol		YES	symbol-ssss
+ 231   tape		YES	tape-ssss
+ 232   up		YES	"upper"=up-er
+ 233   weight		YES	"wait" wait-ssss, wait-er, wait-ing
+ 234   angle		YES	angle-ssss
+ 235   draw		YES	draw-ssss, draw-ing
+ 236   circle		YES	circle-ssss, circle-ing
+ 237   degrees		YES
+ 238   square		YES	square-ssss
+ 239   triangle		YES	triangle-sss
+ 240   hour		YES	"our", hour-ssss
+ 241   print		YES	print-ssss, print-er, print-ing
+ 242   dots		YES
+ 243   back		YES	back-ssss, back-er, back-ing
+ 244   box		YES	box-er, box-ing
+ 245   hide		YES	hide-ssss, hide-ing
+ 246   repeat		YES	repeat-ssss, repeat-ing, repeat-er
+ 247   forward		YES	forward-ssss, forward-ing
+ 248   length		YES	length-ssss
+ 249   list		YES	list-ssss, list-er, list-ing
+ 250   both		YES
+ 251   clear		YES	clear-ssss, clear-er, clear-ing
+ 252   file		YES	file-ssss, file-er, file-ing
+ 253   go		YES	"goes"=go-ssss, go-ing
+ 254   her		YES	her-ssss
+ 255   his		YES
+ 256   look		YES	look-ssss, look-ing
+ 257   problem		YES	problem-ssss
+ 258   some		YES
+ 259   them		YES
+ 260   things		YES

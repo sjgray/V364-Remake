@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "v364mx-numpad-cache") (type "Legacy") (uri "Z:/Personal/Steve/MyProjects/_KiCadProjects/_Completed/MX-Keyboards/Keyboard-V364/Numpad/v364mx-numpad-cache.lib") (options "") (descr "Legacy project cache library"))
+)
