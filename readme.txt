@@ -44,18 +44,19 @@ are working. A standalone MX numeric keypad PCB will be created for those wantin
 use a Plus/4 keyboard (feasibility to be determined).
 
 
-Stand-alone Numeric Keypad
----------------------------
+Numeric Keypad
+---------------
 
-This has not been tested! Use at own risk.
-The original "full" V364 keyboard was loaded and everything but the
-numeric pad and one connecter were retained so there should be no
-reason the numpad would not work, however it may require modifications
+This has not been tested! Use at own risk. The original "full" V364 keyboard was
+loaded and everything but the numeric pad and one connecter were retained so there
+should be no reason the numpad would not work, however it may require modifications
 depending on the final case design.
 
 The V364 motherboard should have an extra keyboard connector to connect
 both a Plus/4 keyboard and this numeric pad. For Plus/4 motherboards it
 will need a 2-to-1 adapter board to connect both.
+
+I have ordered PCBs and will build one with low-profile switches to confirm operation.
 
 
 Keycaps

@@ -8,21 +8,20 @@ synthesis using a more integrated version of the Magic Voice cartridge
 that was released for the C64.
 
 
-Keyboard
---------
+Full Keyboard
+-------------
 
-A mechanical keyboard PCB has been produced with numeric pad. Custom cherry keycaps
+A mechanical "full" keyboard has been produced with numeric pad. Custom cherry keycaps
 were ordered from Maxkeyboard.com. These were tested on a real Plus/4 computer and
-are working. A standalone MX numeric keypad PCB will be created for those wanting to
-use a Plus/4 keyboard (feasibility to be determined).
+are working.
 
 
 Stand-alone Numeric Keypad
 ---------------------------
 
-This has not been started, but will be just the numeric pad section of the full design.
-The method of connecting a normal Plus/4 keyboard and addon numeric section needs to
-be determined. Keycaps for the numeric pad are complete.
+This is complete and I have ordered some PCBs. I will use low-profile MX switches to 
+match the height of the Plus/4 keyboard. The method of connecting a normal Plus/4
+keyboard and addon numeric section needs to be determined. Keycaps for the fullfor the numeric pad are complete.
 
 
 Keycaps
