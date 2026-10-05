@@ -11,9 +11,14 @@ that was released for the C64.
 Full Keyboard
 -------------
 
-A mechanical "full" keyboard has been produced with numeric pad. Custom cherry keycaps
-were ordered from Maxkeyboard.com. These were tested on a real Plus/4 computer and
-are working.
+A mechanical "full" keyboard has been produced with numeric pad. This will take normal
+cherry MX switches. I plan to update it to also take Gateron low-profile switches
+which will allow the keyboard to be about the same height as the normal Plus/4 and V364
+keyboards. Since 9U spacebars are very rare this design uses a 6U spacebar along
+with two 1.5U side keys. I hope to create a 9U MX spacebar which can be 3D printed
+for the next release. The diamond cursor keys use small tactile switches, but there is
+also the option of installing regular MX switches in an Inverted-T configuration. The
+function keys will also need to be 3D printed.
 
 
 Stand-alone Numeric Keypad
@@ -21,19 +26,22 @@ Stand-alone Numeric Keypad
 
 This is complete and I have ordered some PCBs. I will use low-profile MX switches to 
 match the height of the Plus/4 keyboard. The method of connecting a normal Plus/4
-keyboard and addon numeric section needs to be determined. Keycaps for the fullfor the numeric pad are complete.
+keyboard and addon numeric section needs to be determined.
 
 
 Keycaps
 -------
 
-Keycaps have been completed for the normal cherry type keys. The non-standard
-function keys and arrow cursor keys have not been started. These will have to wait
-for the 3D case to be completed.
+Normal cherry keycaps match the Plus/4 and V364 keyboards very well except for the lack
+of a proper 2U profile for the ENTER key. I substituted a cap designed for the PC numeric
+pad "0" key.
+
+Function keys and arrow cursor keys must be 3D printed. I have not started them yet.
 
 
 Keycap Labels
 -------------
 
  Custom colour printed keycaps were made by Maxkeyboard.com. A SVG file was submitted
-in order to make the dyesub printed keycaps. This SVG file can also be used to make water-slide or vinyl sheet for using on blank keycaps.
+in order to make the dyesub printed keycaps. This SVG file can also be used to make
+water-slide or vinyl sheet for using on blank keycaps.
