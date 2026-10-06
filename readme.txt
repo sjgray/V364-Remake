@@ -21,6 +21,7 @@ This project will involve several different tasks:
 8) Create a "Magic Voice" cartridge for existing 264-series computers.
 9) Create an internal add-on speech board for Plus/4 or C16.
 10) Create replica case badge.
+11) Clone the C64 Magic Voice to confirm schematics and as a base for other variations.
 
 
 Status Overview  **** This project is not complete!!!! ***
@@ -33,6 +34,7 @@ The following have been posted even if not complete:
 * Untested MX Numeric Pad. Created from "full" keyboard.
 * Preliminary 3D case for Plus/4 motherboard. Has not been printed.
 * Preliminary Motherboard PCB. Most components are in place. No routing.
+* C64 Magic Voice clone mostly done.
 
 
 Keyboard
@@ -120,6 +122,18 @@ Speech Cartridge
 
 This will be just the speech chips with an audio output jack. It will also need a
 connection to the "F0" pin on the PLA inside the computer.
+
+
+C64 Magic Voice replica
+-----------------------
+
+This is a replica of the C64 Magic Voice cartridge. This will verify that existing schematics
+of the Magic Voice are correct and then we can use this as the basis for 264-series versions
+if the custom gate array can not be cloned. The schematic was entered into Kicad and a board
+was created, along with creating a Magic Voice gate array symbol. The design is mostly completed,
+with layout and components closely matching the original except for a few minor changes to
+some traces due to Kicad's 45 degree trace constraints, and also the RCA connectors could not
+be found so a modern version was substituted.
 
 
 Project notes
