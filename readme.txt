@@ -4,37 +4,37 @@ Commodore V364 Prototype Remake Project   Steve J. Gray
 This is a project to remake the V364 prototype computer from Commodore.
 This would have been the flagship model in the TED/264 series, and
 would feature a larger case with numeric keypad and built-in speech
-synthesis using a more integrated version of the Magic Voice cartridge
-that was released for the C64.
+synthesis using a more integrated version of the Magic Voice ("MV")
+cartridge that was released for the C64.
 
 This project will involve several different tasks:
 
-1) Create a PCB that matches the existing prototype layout as close as possible.
-2) Create a functional equivalent to the custom speech gate array chip.
-3) Create a MX-switch compatible keyboard with numeric pad OR just the numeric
-   pad that can be added along side a standard Plus/4 keyboard.
-4) Create cherry MX keycaps.
-5) Create 3D modelled cursor arrow keys and function keys.
-6) Create a 3D modelled case of the V364 case to match the V36 motherboard
-7) Create a 3D modelled case that will accept a Plus/4 motherboard and keyboard
-   for those just wanting the look. Use addon numeric keypad.
-8) Create a "Magic Voice" cartridge for existing 264-series computers.
-9) Create an internal add-on speech board for Plus/4 or C16.
+ 1) Create a PCB that matches the existing prototype layout as close as possible.
+ 2) Create a functional equivalent to the custom speech gate array chip.
+ 3) Create an MX switch compatible keyboard with numeric pad OR just the numeric
+    pad that can be used with a standard Plus/4 keyboard.
+ 4) Create cherry MX keycaps.
+ 5) Create 3D modelled cursor arrow keys and function keys.
+ 6) Create a 3D modelled case of the V364 case to match the V364 motherboard
+ 7) Create a 3D modelled case that will accept a Plus/4 motherboard and keyboard
+    for those just wanting the look. Use addon numeric keypad.
+ 8) Create a speech cartridge for existing 264-series computers.
+ 9) Create an internal add-on speech board for 264-series.
 10) Create replica case badge.
-11) Clone the C64 Magic Voice to confirm schematics and as a base for other variations.
+11) Clone the C64 MV to confirm schematics and as a base for other variations.
 
 
-Status Overview  **** This project is not complete!!!! ***
+Status Overview  **** This project is not complete!!!! ****
 ---------------
 
 The following have been posted even if not complete:
 
-* Complete "full" MX Keyboard. Tested working. May need updating.
+* 3D case for Plus/4 motherboard. In progress. Has not been printed.
+* Complete "full" keyboard. Uses standard MX switches. Tested working. May need updating.
+* Separate Numeric Pad. Supports standard and low-profile MX switches. Untested.
 * Complete Custom Cherry MX keycaps. Tested ok.
-* Untested MX Numeric Pad. Created from "full" keyboard.
-* Preliminary 3D case for Plus/4 motherboard. Has not been printed.
 * Preliminary Motherboard PCB. Most components are in place. No routing.
-* C64 Magic Voice clone mostly done.
+* C64 Magic Voice clone. Mostly done.
 
 
 Keyboard
@@ -88,6 +88,7 @@ A 3D replica case is being designed using the free version of Sketchup. It is mo
 complete but has not been printed. Final design will depend on the motherboard PCB
 design to match port locations and mounting holes etc.
 
+
 Badge
 -----
 
@@ -120,8 +121,18 @@ a pin-compatible plug-in board.
 Speech Cartridge
 ----------------
 
-This will be just the speech chips with an audio output jack. It will also need a
-connection to the "F0" pin on the PLA inside the computer.
+This is a cartridge based on the V364 speech circuitry. It consists of just the speech chips
+with an audio output jack. It will also need a connection to the "F0" pin on the PLA inside
+the computer.
+
+
+Dev MV Board
+------------
+
+This is a development board to add speech internally based on the MV chips.
+It connects to one ROM socket on the motherboard. The ROM is transferred to this board.
+The V364 ROM is installed along with most of the MV chips. The MV circuit was simplified
+for the 264. It uses several flyout to the 264 motherboard.
 
 
 C64 Magic Voice replica
@@ -132,7 +143,7 @@ of the Magic Voice are correct and then we can use this as the basis for 264-ser
 if the custom gate array can not be cloned. The schematic was entered into Kicad and a board
 was created, along with creating a Magic Voice gate array symbol. The design is mostly completed,
 with layout and components closely matching the original except for a few minor changes to
-some traces due to Kicad's 45 degree trace constraints, and also the RCA connectors could not
+some traces due to Kicad's trace constraints, and also the RCA connectors could not
 be found so a modern version was substituted.
 
 
