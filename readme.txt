@@ -19,7 +19,7 @@ This project will involve several different tasks:
  7) Create a 3D modelled case that will accept a Plus/4 motherboard and keyboard
     for those just wanting the look. Use addon numeric keypad.
  8) Create a speech cartridge for existing 264-series computers.
- 9) Create an internal add-on speech board for 264-series.
+ 9) Create an internal Speech development board for 264-series.
 10) Create replica case badge.
 11) Clone the C64 MV to confirm schematics and as a base for other variations.
 
@@ -126,13 +126,19 @@ with an audio output jack. It will also need a connection to the "F0" pin on the
 the computer.
 
 
-Dev MV Board
-------------
+Speech Dev Board
+-----------------
 
-This is a development board to add speech internally based on the MV chips.
-It connects to one ROM socket on the motherboard. The ROM is transferred to this board.
-The V364 ROM is installed along with most of the MV chips. The MV circuit was simplified
-for the 264. It uses several flyout to the 264 motherboard.
+This is a development board to add speech internally using either the MV chipset or the
+custom V364 Gate Array (recreated in FPGA etc). The MV circuit was simplified for the 264.
+It connects via ribbon cable to one ROM socket on the computer motherboard and has several
+flyouts to connect various places.
+
+The ROM from the computer is transferred to this board. The V364 ROM/EPROM is installed in
+the other socket and the Toshiba T6721A in it's socket.
+
+* If you are using the MV set: install the 6525 and LA05 chips.
+* If you have the V364 Gate Array recreation just install that only.
 
 
 C64 Magic Voice replica
