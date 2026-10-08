@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "V364 Remake")
-		(date "2026-09-12")
+		(date "2026-10-08")
 		(rev "Bo Proto")
 		(comment 1 "V364 Prototype Remake by Steve J. Gray")
 	)
@@ -19458,6 +19458,16 @@
 		)
 		(uuid "51f47b87-34c2-4de5-b7f9-8fc7784285e8")
 	)
+	(text "Speech ROM"
+		(exclude_from_sim no)
+		(at 278.638 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "558477f2-aaf5-4946-9bad-e3fd8342a3bc")
+	)
 	(text "RS-232"
 		(exclude_from_sim no)
 		(at 458.724 152.146 0)
@@ -19576,7 +19586,7 @@
 		)
 		(uuid "8e5c46e9-4c6b-418a-9b4b-f88da2a80537")
 	)
-	(text "STARTED: 2026-09-01\nUPDATED: 2026-09-13"
+	(text "STARTED: 2026-09-01\nUPDATED: 2026-10-08"
 		(exclude_from_sim no)
 		(at 48.006 400.812 0)
 		(effects
@@ -19912,6 +19922,16 @@
 		)
 		(uuid "dfc23a75-7e30-4d4b-b1ff-e19d5f038464")
 	)
+	(text "Speech chip output\ngoes here (same as\nthe cartridge port)"
+		(exclude_from_sim no)
+		(at 340.106 327.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e141ce43-2112-4b74-81fb-8d1d890c53b8")
+	)
 	(text "AUDIO\nVIDEO"
 		(exclude_from_sim no)
 		(at 435.356 310.388 0)
@@ -19958,6 +19978,16 @@
 			)
 		)
 		(uuid "f02685f6-b8da-4810-a5e1-a5482d8cd821")
+	)
+	(text "Register Select:"
+		(exclude_from_sim no)
+		(at 317.754 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe823485-ed05-4ca4-b3b7-8ed40f755683")
 	)
 	(junction
 		(at 48.006 310.388)
@@ -28839,6 +28869,16 @@
 		)
 		(uuid "53e08110-5686-4661-a563-941336a2193b")
 	)
+	(label "Custom Gate Array"
+		(at 82.042 241.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad32e2d5-8071-48af-b6d0-fba4a24bb692")
+	)
 	(label "ATN"
 		(at 566.928 330.2 180)
 		(effects
@@ -31309,7 +31349,7 @@
 			)
 		)
 	)
-	(global_label "EXT_AUDIO"
+	(global_label "VOICE"
 		(shape input)
 		(at 350.012 322.58 180)
 		(effects

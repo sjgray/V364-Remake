@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A3")
+	(title_block
+		(date "2026-10-08")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -108091,7 +108094,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Commodore V364 Prototype Remake\nSteve J, Gray  Rev xx  2026-09-11"
+	(gr_text "Commodore V364 Prototype Remake\nSteve J, Gray  Rev xx  2026-10-08"
 		(at 93 219.25 0)
 		(layer "F.SilkS")
 		(uuid "8b723668-c436-4b59-bfe8-30997616dcaa")
